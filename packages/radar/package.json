@@ -1,0 +1,20 @@
+{
+  "name": "@typebot.io/radar",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*.ts"
+  },
+  "dependencies": {
+    "@typebot.io/env": "workspace:*",
+    "@typebot.io/typebot": "workspace:*",
+    "@typebot.io/blocks-logic": "workspace:*",
+    "@typebot.io/lib": "workspace:*",
+    "@typebot.io/variables": "workspace:*"
+  },
+  "devDependencies": {
+    "@typebot.io/tsconfig": "workspace:*"
+  }
+}
